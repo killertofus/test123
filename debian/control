@@ -1,13 +1,12 @@
 Source: chatterino
-Package: chatterino
-Version: 2.5-2
-Architecture: amd64
-Maintainer: me <andyour@mom.com>
-Installed-Size: 
-Depends: qt6-base-dev qt6-5compat-dev qt6-svg-dev qt6-image-formats-plugins libboost1.81-dev libnotify-dev libssl-dev cmake g++ git
-
 Section: qt
 Priority: optional
-Multi-Arch: foreign
+Maintainer: me <andyour@mom.com>
+Build-Depends: git
+Standards-Version: 2.5-2
 Homepage: www.chatterino.com
+
+Package: chatterino
+Architecture: amd64
+Depends qt6-base-dev, qt6-5compat-dev, qt6-svg-dev, qt6-image-formats-plugins, libboost1.81-dev, libnotify-dev, libssl-dev, cmake, g++
 Description: Chat client for https://twitch.tv
