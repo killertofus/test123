@@ -1,4 +1,3 @@
-Source: chatterino
 Package: chatterino
 Version: 2.5-2
 Architecture: amd64
@@ -10,3 +9,4 @@ Priority: optional
 Multi-Arch: foreign
 Homepage: www.chatterino.com
 Description: Chat client for https://twitch.tv
+Source: chatterino
