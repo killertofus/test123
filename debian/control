@@ -8,5 +8,5 @@ Homepage: www.chatterino.com
 
 Package: chatterino
 Architecture: amd64
-Depends qt6-base-dev, qt6-5compat-dev, qt6-svg-dev, qt6-image-formats-plugins, libboost1.81-dev, libnotify-dev, libssl-dev, cmake, g++
+Depends qt6-base-dev, boost, openssl, libboost-thread-dev, rapidjson-dev, libnotify-dev, libwebsocketpp-dev, cmake, libbenchmark-dev, libghc-lrucache-dev, libmagicenum-dev, doxygen, libboost-all-dev,
 Description: Chat client for https://twitch.tv
