@@ -1,0 +1,62 @@
+.TH chatterino  "06 February 2025" "" ""
+.RS
+Usage: chatterino [options]
+Chatterino 2 Client for Twitch Chat
+.PP
+Options:
+.RS
+.TP
+.B
+\fB-h\fP, \fB--help\fP
+Displays help on commandline
+options.
+.TP
+.B
+\fB--help-all\fP
+Displays help, including generic
+Qt options.
+.TP
+.B
+\fB-V\fP, \fB--version\fP
+Displays version information.
+.TP
+.B
+\fB-v\fP, \fB--verbose\fP
+Attaches to the Console on
+windows, allowing you to see debug
+output.
+.TP
+.B
+\fB--safe-mode\fP
+Starts Chatterino without loading
+Plugins and always show the
+settings button.
+.TP
+.B
+\fB--login\fP <username>
+Starts Chatterino logged in as
+the account matching the supplied
+username. If the supplied username
+does not match any account
+Chatterino starts logged in as
+anonymous.
+.TP
+.B
+\fB-c\fP, \fB--channels\fP <t:channel1;t:channel2;\.\.\.>
+Joins only supplied channels on
+startup. Use letters with colons
+to specify platform. Only Twitch
+channels are supported at the
+moment.
+If platform isn't specified,
+default is Twitch.
+.TP
+.B
+\fB-a\fP, \fB--activate\fP <t:channel>
+Activate the tab with this
+channel or add one in the main
+window.
+Only Twitch is supported at the
+moment (prefix: 't:').
+If the platform isn't specified,
+Twitch is assumed.

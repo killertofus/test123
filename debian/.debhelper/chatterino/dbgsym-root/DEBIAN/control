@@ -1,0 +1,12 @@
+Package: chatterino-dbgsym
+Source: chatterino
+Version: 1.8-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: me <andyour@mom.com>
+Installed-Size: 34
+Depends: chatterino (= 1.8-1)
+Section: debug
+Priority: optional
+Description: debug symbols for chatterino
+Build-Ids: 4b30a3aa5587f529a4ae2b788658a554b3a32b34

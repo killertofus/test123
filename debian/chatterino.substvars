@@ -1,0 +1,3 @@
+shlibs:Depends=qt6-base-de,v qt6-5compat-dev, qt6-svg-dev, qt6-image-formats-plugins, libboost1.81-dev, libnotify-dev, libssl-dev, cmake, g++, git
+misc:Depends=
+misc:Pre-Depends=
