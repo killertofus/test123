@@ -1,12 +1,9 @@
-Source: chatterino
-Section: qt
-Priority: optional
-Maintainer: me <andyour@mom.com>
-Build-Depends: git
-Standards-Version: 2.5-2
-Homepage: www.chatterino.com
-
 Package: chatterino
+Version: 2.5.2
 Architecture: amd64
-Depends qt6-base-dev, boost, openssl, libboost-thread-dev, rapidjson-dev, libnotify-dev, libwebsocketpp-dev, cmake, libbenchmark-dev, libghc-lrucache-dev, libmagicenum-dev, doxygen, libboost-all-dev,
-Description: Chat client for https://twitch.tv
+Maintainer: me <andyour@mom.com>
+Depends: libc6, libstdc++6, libglx0, libopengl0, libpng16-16, libharfbuzz0b, libfreetype6, libfontconfig1, libjpeg-turbo8, libxcb-glx0, libegl1, libx11-6, libxkbcommon0, libx11-xcb1, libxkbcommon-x11-0, libxcb-cursor0, libxcb-icccm4, libxcb-image0, libxcb-keysyms1, libxcb-randr0, libxcb-render-util0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb-render0, libxcb-shape0, libxcb-xkb1, libxcb1, libbrotli1, libglib2.0-0, zlib1g, libicu74, libpcre2-16-0, libssl3, libgraphite2-3, libexpat1, libuuid1, libxcb-util1, libxau6, libxdmcp6, libffi8, libmount1, libselinux1, libpcre3, libbsd0, libblkid1, libpcre2-8-0, libmd0
+Section: net
+Priority: optional
+Homepage: https://github.com/Chatterino/chatterino2
+Description: chat client for twitch.tv
