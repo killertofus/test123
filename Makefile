@@ -16,8 +16,8 @@ INCLUDES?= -I$(X11BASE)/include
 LDPATH	?= -L$(X11BASE)/lib
 LIBS	+= -lX11 -lXfixes -lXi -lXext
 
-PROG	= xbanish
-OBJS	= xbanish.o
+PROG	= chatterino
+OBJS	= chatterino.o
 
 all: $(PROG)
 
@@ -31,7 +31,7 @@ install: all
 	mkdir -p $(DESTDIR)$(BINDIR)
 	$(INSTALL_PROGRAM) $(PROG) $(DESTDIR)$(BINDIR)
 	mkdir -p $(DESTDIR)$(MANDIR)
-	$(INSTALL_DATA) -m 644 xbanish.1 $(DESTDIR)$(MANDIR)/xbanish.1
+	$(INSTALL_DATA) -m 644 chatterino.1 $(DESTDIR)$(MANDIR)/chatterino.1
 
 clean:
 	rm -f $(PROG) $(OBJS)
